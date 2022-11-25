@@ -1,6 +1,6 @@
 ## Description
 Se trata de una api sencilla a través de la cual podremos realizar peticiones GET, POST, PUT y DELETE de unos Monumentos los cuales tienen datos como el código, su id, nombre, entre otros atributos que pueda tener un Monumento.
-
+Tenemos la carpeta PostMan donde podremos usarla para realizar las distintas peticiones.
 ## Installation
 Debemos tener instalado el xamp para poder arrancar la base de datos ya que se ha realizado con phpMyAdmin, la base de datos se encuentra en el panel principal del repositorio. No obstante antes debemos de realizar una instalación de todas las dependencias necesarias para ejecutar el proyecto.
 Para poder realizar las peticiones en POSTMAN necesitaremos usar la siguiente url base: http://localhost:3000/api/monumento/?
