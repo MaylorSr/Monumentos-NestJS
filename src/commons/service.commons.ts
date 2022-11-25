@@ -11,8 +11,8 @@ export abstract class BaseService<T> {
     return this.getRepository().save(entity);
   }
 
-  async findOneMonumento(id: any) {
-    return await this.getRepository().findOneBy(id);
+  async findOneMonumento(id) {
+    return await this.getRepository().findOne(id);
   }
 
   async deleteMonumento(id: any) {
